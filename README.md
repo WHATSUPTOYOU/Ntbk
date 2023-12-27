@@ -1,4 +1,3 @@
----
 # 操作系统相关
 
 ## Linux 命令
@@ -19,8 +18,6 @@
 
 1. [忘记root登录密码重置](./opsys/common/pwdforget.md)
 
---- 
-
 # 代码Demo
 
 ## Golang
@@ -37,7 +34,6 @@
 ## Rust
 
 ## Java
-
 
 
 
