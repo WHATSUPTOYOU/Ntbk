@@ -21,6 +21,7 @@
 
 1. [忘记root登录密码重置](./opsys/common/pwdforget.md)
 2. [Ubuntu vi方向键变为其他乱码](https://blog.csdn.net/a12355556/article/details/120512771)
+3. [各管理工具镜像源](./opsys/common/mirrors.md)
 
 ## Windows
 1. [Windows MSRC查询系统发布补丁](https://api.msrc.microsoft.com/cvrf/v2.0/swagger/index)
