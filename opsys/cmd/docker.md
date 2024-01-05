@@ -74,8 +74,6 @@ https://www.jianshu.com/p/748416621013
 - docker stop $(docker ps -q)
 - docker rm $(docker ps -aq)
 
-
-
 ifconfig ens33 up/down  启停网卡
 ifconfig eth0 192.168.1.18 netmask 255.255.255.0 设置ip和掩码
 
