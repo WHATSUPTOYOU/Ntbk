@@ -1,4 +1,3 @@
-# Linux
 
 ## docker
 
@@ -72,13 +71,10 @@ docker compose 配置文件说明：
 https://www.jianshu.com/p/748416621013
 
 清除所有容器：
-docker stop $(docker ps -q)
-docker rm $(docker ps -aq)
+- docker stop $(docker ps -q)
+- docker rm $(docker ps -aq)
 
 
-## ifconfig
-
-设网卡为ens33
 
 ifconfig ens33 up/down  启停网卡
 ifconfig eth0 192.168.1.18 netmask 255.255.255.0 设置ip和掩码
