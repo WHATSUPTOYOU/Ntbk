@@ -66,6 +66,7 @@
 
 1. [golang静态分析代码检测优化](./language/go/gostatic.md)
 2. [使用go工具链进行fuzzing](https://github.com/jincheng9/go-tutorial/tree/main/workspace/senior/p22)
+3. [golang性能分析](./language/go/gocheckperf.md)
 
 <br>
 <br>
