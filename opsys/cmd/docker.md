@@ -20,7 +20,7 @@
 -- Host --- 与主机共享网络。
 -- Bridge --- 默认网络模式，通过主机和容器的端口映射（iptable转发）来通信。桥接是在主机上，一般叫docker0。
 -  exit退出并停止容器
-- docker commit  //可以提交为镜像
+- docker commit [CONTAINER ID] [IMAGE NAME]   #容器ID  创建的镜像名 //保存为镜像
 -v   参数可以指定映射目录，使得容器中和本机中的文件共享
 -  Ctrl+p+q只退出容器，不停止容器
 
