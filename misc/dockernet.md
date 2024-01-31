@@ -28,6 +28,7 @@ docker0| 安装完docker之后，docker会为我们创建一个叫docker0的网�
 ### 5.1 网络隔离原理 
 Docker容器对外的网络通信由iptables控制隔离，假设使用docker network create 命令创建了一个新的桥(docker1，子网地址为172.26.0.0/16，网关是172.26.0.1)，然后启动容器b1连接到docker1上。docker默认的桥bridge（也就是docker0,子网地址为10.0.0.0/16，默认网关为10.0.0.1），然后启动容器b2连接到docker0上，示意图如下所示：
 ![15e9f1908585e1b868d34dc9c52763de.png](./_resources/15e9f1908585e1b868d34dc9c52763de.png)
+
 此时即便宿主机存在路由转发，B1和B2之间仍然无法相互通信，这是由于docker配置了iptables规则进行了转发阻断。
 ### 5.2 iptables规则解读
 #### 环境说明
