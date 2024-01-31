@@ -27,9 +27,11 @@ iptables组成包括表、链、规则、匹配条件、目标等。
 - 数据包传输过程如下：
 
 ![de840f99a0dd2bc8cca85adb4af0b440.png](../_resources/de840f99a0dd2bc8cca85adb4af0b440.png)
+
 4. **目标（target）：**
 
 ![420287e69c3d0bb1eca37310e3a0748b.png](../_resources/420287e69c3d0bb1eca37310e3a0748b.png)
+
 注：MASQUERADE 会动态的将源地址转换为可用的 IP 地址&#xff0c;其实与 SNAT 实现的功能完全一致&#xff0c;都是修改源地址&#xff0c;只不过 SNAT 需要指明将报文的源地址改为哪个 IP&#xff0c;而 MASQUERADE 则不用指定明确的 IP&#xff0c;会动态的将报文的源地址修改为指定网卡上可用的 IP 地址。</p>  
 
 ## 二、iptables规则管理
