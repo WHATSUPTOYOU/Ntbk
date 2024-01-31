@@ -5,10 +5,10 @@
 - tmux kill-session //结束会话，用法同attach
 - tmux ls  //列出会话
 - $ tmux select-pane -t {pane} -T {title}
-    \# Examples:
-    $ tmux select-pane -T title1          # Change title of current pane
-    $ tmux select-pane -t 1 -T title2     # Change title of pane 1 in current window
-    $ tmux select-pane -t 2.1 -T title3   # Change title of pane 1 in window 2
+    - \# Examples:
+    - $ tmux select-pane -T title1          # Change title of current pane
+    - $ tmux select-pane -t 1 -T title2     # Change title of pane 1 in current window
+    - $ tmux select-pane -t 2.1 -T title3   # Change title of pane 1 in window 2
 - tmux set pane-border-status bottom # 显示每个窗格的标题
 - tmux set pane-border-status off # 关闭状态栏
 
