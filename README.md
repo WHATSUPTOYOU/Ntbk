@@ -29,6 +29,7 @@
 
 ## Windows
 1. [Windows MSRC查询系统发布补丁](https://api.msrc.microsoft.com/cvrf/v2.0/swagger/index)
+2. [Windows netsh IPSec配置流量过滤](./opsys/windows/IPSec.md)
 
 ## 实用命令
 -  shell输出json格式数据
