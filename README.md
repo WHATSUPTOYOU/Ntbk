@@ -36,6 +36,12 @@
 `echo '{"name":"zhangsan", "age":"18"}' | python -m json.tool`
 - python 搭建当前目录http服务
 `python -m http.server`
+- 磁盘清理时查看当前目录下的各个文件（夹）大小
+`du -h --max-depth=1 /path/to/directory`
+- 取出标准输出的第n列数据做额外处理, 如：
+`netstat -tupan |awk '{print $4}'|grep 10.19` // 获取连接消息地址的10.19相关连接
+`docker rm $(docker ps -a|awk '{print $1}')` // 也可作为多行变量处理
+
 
 
 <br>
