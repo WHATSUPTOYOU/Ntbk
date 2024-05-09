@@ -55,6 +55,7 @@
 
 ## Python
 
+
 ## Rust
 
 ## Java
@@ -80,3 +81,7 @@
 1. [计算机编码ASCII/Unicode/UTF-8/GBK](./misc/encoding.md)
 2. [shadow文件加密方式解析](https://blog.csdn.net/zwbill/article/details/79322374)
 3. [docker网络综述](./misc/dockernet.md)
+
+# 实用在线工具
+1. [代码生成工具，用于高亮插入word](http://www.codeinword.com/)
+
