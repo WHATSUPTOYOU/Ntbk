@@ -92,6 +92,8 @@
 
 # 实用在线工具
 1. [代码生成工具，用于高亮插入word](http://www.codeinword.com/)
+2. [画图或ppt制作选取配色](https://color.adobe.com/zh/explore)
+3. [画图或ppt制作选取配色2](https://coolors.co/palettes/trending)
 
 <br>
 <br>
