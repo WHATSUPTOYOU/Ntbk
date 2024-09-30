@@ -87,6 +87,7 @@
 2. [shadow文件加密方式解析](https://blog.csdn.net/zwbill/article/details/79322374)
 3. [docker网络综述](./misc/dockernet.md)
 4. [证书、密钥相关认证](./misc/cert.md)
+5. [二进制文件处理、调试、信息查询](./misc/binary.md)
 
 <br>
 <br>
