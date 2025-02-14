@@ -53,6 +53,7 @@
 3. [http Demo](./codedemo/go/http.md)
 4. [图片相似度计算](./codedemo/go/imageSim.md)
 5. [mysql操作](./codedemo/go/mysqlConn.md)
+6. [基础文件监控](./codedemo/go/filemon_inotify.go)
 
 ## C/C++
 1. [Windows最小化所有窗口,并显示置顶窗口](./codedemo/c/minWin.md)
