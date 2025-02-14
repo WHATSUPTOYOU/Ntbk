@@ -14,6 +14,7 @@
   - [ifconfig](./opsys/cmd/ifconfig.md)
   - [more/less/head/tail](https://blog.csdn.net/qq_15256443/article/details/81664081)
   - [iptables](https://cloud.tencent.com/developer/article/1628661)
+  - [grep/awk/sed](./opsys/cmd/test.md)
   - [shell脚本语法](./opsys/cmd/shellgram.md)
 </details>
 
